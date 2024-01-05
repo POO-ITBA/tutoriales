@@ -4,7 +4,7 @@
         <primary-color>halloween</primary-color>
         <custom-favicons>favicon.svg</custom-favicons>
         <header-logo>my-logo.png</header-logo>
-        <product-web-url>https://help.example.com</product-web-url>
+        <product-web-url>https://github.com/POO-ITBA</product-web-url>
         <download-title>Consultas</download-title>
         <download-page>https://github.com/POO-ITBA/2023_02/issues</download-page>
         <showDownloadButton>true</showDownloadButton>
@@ -15,7 +15,7 @@
         </variables>
     </build-profile>
     <footer>
-        <copyright>72.33 Progrmación Orientada a Objetos 2024</copyright>
+        <copyright>72.33 Programación Orientada a Objetos 2024</copyright>
         <link href="https://github.com/POO-ITBA/2023_02/issues">Consultas</link>
     </footer>
 </buildprofiles>
