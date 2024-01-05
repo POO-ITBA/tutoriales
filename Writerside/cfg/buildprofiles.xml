@@ -3,7 +3,7 @@
     <variables>
         <primary-color>halloween</primary-color>
         <custom-favicons>favicon.svg</custom-favicons>
-        <header-logo>my-logo.png</header-logo>
+        <header-logo>logo.png</header-logo>
         <product-web-url>https://github.com/POO-ITBA</product-web-url>
         <download-title>Consultas</download-title>
         <download-page>https://github.com/POO-ITBA/2023_02/issues</download-page>

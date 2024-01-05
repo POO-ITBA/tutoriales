@@ -2,7 +2,6 @@
 
 Contenido:
 
-
 <a href="ruby-macos.md">Instalación de Ruby en **macOS**</a>
 
 <a href="ruby-linux.md">Instalación de Ruby en **Linux**</a>

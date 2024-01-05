@@ -10,8 +10,7 @@ Puede consultar el siguiente tutorial:
 
 ## Configuración del intérprete
 
-Una vez instalado **RubyMine** necesita indicarle al IDE que desea utilizar la versión de Ruby que instaló con
-<code>rbenv</code>
+Una vez instalado **RubyMine** necesita indicarle al IDE que desea utilizar la versión de Ruby que instaló
 
 Puede consultar el siguiente tutorial:
 

@@ -4,8 +4,11 @@ Bienvenido al sitio de **tutoriales** para la materia **72.33 Programación Orie
 
 ## Índice
 
-<a href="ruby-index.md">Instalación de Ruby</a>
+<a href="ruby-index.md">Instalación de **Ruby**</a>
 
-<a href="rubymine.md">Instalación de RubyMine</a>
+<a href="rubymine.md">Instalación de **RubyMine**</a>
 
-<a href="sortedset.md">Instalación de la gema SortedSet</a>
+<a href="sortedset.md">Instalación de la gema **SortedSet**</a>
+
+<a href="javafx.md">Instalación de **JavaFX**</a>
+
