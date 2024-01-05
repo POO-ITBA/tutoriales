@@ -1,7 +1,10 @@
-# Instalación de Ruby en macOS
+# Instalación de Ruby
 
 Contenido:
 
-- **Instalación de Ruby 3.3** usando la terminal de macOS
-- **Instalación de RubyMine**
-- **Instalación de la gema SortedSet**
+
+<a href="ruby-macos.md">Instalación de Ruby en **macOS**</a>
+
+<a href="ruby-linux.md">Instalación de Ruby en **Linux**</a>
+
+<a href="ruby-windows.md">Instalación de Ruby en **Windows**</a>

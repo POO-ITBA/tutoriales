@@ -1,4 +1,4 @@
-# Instalación de Ruby 3
+# Instalación de Ruby en macOS
 
 <tip>
     <p>
@@ -6,8 +6,6 @@
         que necesitamos para poder ejecutar y debuggear código usando RubyMine.
     </p>
 </tip>
-
-## Homebrew
 
 <warning>
     <p>
@@ -19,13 +17,15 @@
     </p>
 </warning>
 
+## Uso de Homebrew
+
 Puede verificar la instalación de **HomeBrew** utilizando el siguiente comando
 
 <code-block lang="console">brew -v</code-block>
 
 donde debería obtener una salida como la siguiente
 
-<code-block lang="console">Homebrew 4.2.2</code-block>
+<code-block lang="plain text">Homebrew 4.2.2</code-block>
 
 ## Instalación de paquetes ruby-build y rbenv
 
@@ -50,7 +50,7 @@ Consulte las versiones de Ruby disponibles para su instalación
 
 Debería ver una salida similar a la siguiente
 
-<code-block lang="console">
+<code-block lang="plain text">
 3.0.6
 3.1.4
 3.2.2
@@ -110,7 +110,7 @@ Finalmente verifique que al invocar a
 
 donde debe obtener una salida similar a la siguiente
 
-<code-block lang="console">
+<code-block lang="plain text">
 ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [arm64-darwin23]
 </code-block>
 
