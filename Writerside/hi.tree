@@ -5,6 +5,10 @@
 <instance-profile id="hi"
                  name="Tutoriales"
                  start-page="Default-topic.md">
-
     <toc-element topic="Default-topic.md"/>
+    <toc-element topic="ruby-index.md">
+        <toc-element topic="ruby-macos.md"/>
+        <toc-element topic="rubymine.md"/>
+        <toc-element topic="sortedset.md"/>
+    </toc-element>
 </instance-profile>
