@@ -1,4 +1,4 @@
-# Instalación de JavaFX
+# JavaFX
 
 <tip>
     <p>

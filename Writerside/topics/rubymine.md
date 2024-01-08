@@ -1,4 +1,4 @@
-# Instalación de RubyMine
+# RubyMine
 
 ## Instalación usando ToolBox App
 

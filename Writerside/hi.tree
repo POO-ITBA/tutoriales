@@ -4,8 +4,8 @@
 
 <instance-profile id="hi"
                  name="Tutoriales"
-                 start-page="Default-topic.md">
-    <toc-element topic="Default-topic.md"/>
+                 start-page="Start-Page.topic">
+    <toc-element topic="Start-Page.topic"/>
     <toc-element topic="ruby-index.md">
         <toc-element topic="ruby-macos.md"/>
         <toc-element topic="ruby-linux.md"/>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Tutoriales" id="Start-Page" help-id="Section-Starting-Page">
+
+    <section-starting-page>
+        <title>Tutoriales</title>
+        <description>
+            Bienvenido al sitio de tutoriales para la materia 72.33 Programación Orientada a Objetos.
+        </description>
+
+        <spotlight>
+            <a href="ruby-index.md" type="start"
+               summary="Instalación en macOS, Linux y Windows">Ruby</a>
+            <a href="javafx.md" type="creative"
+               summary="Instalación y uso con IntelliJ IDEA">JavaFX</a>
+        </spotlight>
+
+        <primary>
+            <title>Tutoriales de Ruby</title>
+            <a href="rubymine.md" type="idea"
+               summary="Instalación y configuración">RubyMine</a>
+            <a href="sortedset.md" type="library"
+               summary="Instalación con gem y uso">Gema SortedSet</a>
+        </primary>
+
+        <secondary>
+            <title>Consultas</title>
+            <a href="https://github.com/POO-ITBA/2023_02/issues" type="support"
+               summary="https://github.com/POO-ITBA/2023_02/issues">Issues en GitHub</a>
+        </secondary>
+
+    </section-starting-page>
+</topic>
