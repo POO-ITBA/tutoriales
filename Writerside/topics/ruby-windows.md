@@ -36,9 +36,26 @@ En el siguiente paso también asegurarse de tildar todas las opciones
 
 <img src="ruby-win-2.png" alt="Instalación Paso 2" width="600" border-effect="line"/>
 
-Por último, antes de finalizar la instalación asegurarse de dejar tildada la opción
+Antes de finalizar el asistente asegurarse de dejar tildada la opción
+<shortcut>Run 'ridk install'</shortcut>
 
 <img src="ruby-win-3.png" alt="Instalación Paso 3" width="600" border-effect="line"/>
+
+Aparecerá una ventana de la consola con un menú de tres opciones. 
+Ingresar un 
+<shortcut>3</shortcut>
+y presionar
+<shortcut>Enter</shortcut>.
+
+<img src="ruby-win-4.png" alt="Instalación Paso 4" width="600" border-effect="line"/>
+
+Por último debe ver en la terminal un mensaje como:
+
+<code-block lang="console">Install MSYS2 and MINGW development toolchain succeeded</code-block>
+
+Aparecerá nuevamente el mismo menú. Puede presionar
+<shortcut>Enter</shortcut>
+para salir de la terminal y finalizar la instalación.
 
 <note>
     <p>
