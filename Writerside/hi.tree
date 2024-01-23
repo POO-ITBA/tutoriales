@@ -6,6 +6,7 @@
                  name="Tutoriales"
                  start-page="Start-Page.topic">
     <toc-element topic="Start-Page.topic"/>
+    <toc-element topic="inteliij.md"/>
     <toc-element topic="ruby-index.md">
         <toc-element topic="ruby-macos.md"/>
         <toc-element topic="ruby-linux.md"/>

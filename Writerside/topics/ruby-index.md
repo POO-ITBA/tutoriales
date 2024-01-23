@@ -1,4 +1,4 @@
-# Ruby
+# Instalación de Ruby
 
 Contenido:
 

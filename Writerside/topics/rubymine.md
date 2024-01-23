@@ -1,10 +1,17 @@
-# RubyMine
+# Instalación de RubyMine
 
-## Instalación usando ToolBox App
+## Registro y Licencia
 
-Para instalar **RubyMine** recomendamos utilizar **Toolbox App**. 
+**RubyMine** requiere una licencia. Los alumnos pueden registrarse en
+<a href="https://www.jetbrains.com/shop/eform/students">**Productos JetBrains para el aprendizaje**</a>
+con su mail **@itba.edu.ar** y así obtener una **licencia gratuita** para utilizar RubyMine y demás aplicaciones
+de JetBrains de forma gratuita.
 
-Puede consultar el siguiente tutorial: 
+## Instalación de RubyMine usando ToolBox App
+
+Para instalar **RubyMine** recomendamos utilizar **Toolbox App**.
+
+Puede consultar el siguiente tutorial:
 
 <a href="https://www.jetbrains.com/help/ruby/installation-guide.html#toolbox">Install using the Toolbox App</a>.
 
