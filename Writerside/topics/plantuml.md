@@ -17,7 +17,54 @@ Puede generar los diagramas PlantUML **sin conexión a internet** y obtener una
 <a href="https://plugins.jetbrains.com/plugin/7017-plantuml-integration">PlantUML Integration</a>
 para **IntelliJ IDEA**.
 
-Para **instalar el plugin** presione el engranaje de la esquina superior derecha y luego 
+Antes de instalar el plugin es necesario **instalar la librería GraphViz**.
+
+### Instalación de GraphViz
+
+<tldr>
+<tabs>
+<tab title="macOS">
+
+<warning>
+    <p>
+        Es necesario contar con el gestor de paquetes
+        <a href="https://brew.sh/es/">Homebrew</a> 
+    </p>
+    <p>
+        Consulte el sitio web para su instalación.
+    </p>
+</warning>
+
+<p>Abrir la terminal y ejecutar los siguientes comandos:</p>
+
+<code-block lang="console">
+brew install libtool
+brew link libtool
+brew install graphviz
+brew link --overwrite graphviz
+</code-block>
+
+</tab>
+<tab title="Linux">
+
+<p>Abrir la terminal y ejecutar el siguiente comando:</p>
+
+<code-block lang="console">
+sudo apt install graphviz
+</code-block>
+
+</tab>
+<tab title="Windows">
+<note>
+    <p>
+        No es necesaria la instalación de GraphViz en Windows
+    </p>
+</note>
+</tab>
+</tabs>
+</tldr>
+
+Una vez instalado GraphViz, para **instalar el plugin** presione el engranaje de la esquina superior derecha y luego 
 <shortcut>Plugins</shortcut>
 
 <img src="plantuml-0.png" alt="PlantUML" width="200"/>
@@ -54,6 +101,10 @@ ejemplo una clase <code>ArrayList</code> que extiende a una clase abstracta <cod
 Cualquier cambio que haga en el archivo se verá reflejado automáticamente en el diagrama generado.
 
 <img src="plantuml-4.png" alt="PlantUML 4" width="600"/>
+
+<warning>En caso de obtener <b>errores sobre GraphViz o Dot</b> consultar 
+<a href="https://plantuml.com/es/graphviz-dot">GraphViz</a>
+</warning>
 
 En la esquina superior izquierda cuenta con tres botones para **ocultar el visor** del diagrama, para **mostrarlo a la derecha**
 del editor de texto o para **mostrarlo debajo** del editor de texto.
