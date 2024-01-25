@@ -40,6 +40,68 @@
                 <a href="https://github.com/POO-ITBA/2024_01/issues" type="support"
                    summary="https://github.com/POO-ITBA/2024_01/issues">Issues en GitHub</a>
             </cards>
+
+            <links>
+                <group>
+                    <title>Documentación que podrán consultar durante los parciales y recuperatorios</title>
+                    <a href="https://docs.oracle.com/en/java/javase/21/docs/api/index.html"
+                       summary="Documentación de Java">
+                        Java Development Kit Version 21 API Specification</a>
+                    <a href="https://docs.ruby-lang.org/en/3.3/"
+                       summary="Documentación de Ruby">
+                        Ruby Official Documentation</a>
+                    <a href="https://www.rubydoc.info/gems/sorted_set/SortedSet"
+                        summary="Documentation for sorted_set (1.0.3)">
+                        rubydoc.info/gems/sorted_set
+                    </a>
+                </group>
+                <group>
+                    <title>Ejecución del código desde el navegador</title>
+                    <a href="https://www.jdoodle.com/online-java-compiler"
+                       summary="Online Java Compiler IDE">JDoodle</a>
+                    <a href="https://try.ruby-lang.org/playground/"
+                       summary="In the Playground you can try any Ruby code you like.">Try Ruby</a>
+                </group>
+
+                <group>
+                    <title>Bibliografía Complementaria para Java</title>
+                    <a href="https://dev.java/learn/"
+                       summary="The Destination for Java Developers">
+                        Learn Java</a>
+                    <a href="https://docs.oracle.com/javase/tutorial/reallybigindex.html"
+                       summary="The Really Big Index">
+                        The Java Tutorials</a>
+                    <a href="https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html"
+                       summary="Code Conventions">
+                        Code Conventions for the Java Programming Language
+                    </a>
+                </group>
+
+                <group>
+                    <title>Bibliografía Complementaria para Ruby</title>
+                    <a href="https://www.techotopia.com/index.php/Ruby_Essentials"
+                       summary="Ruby Essentials is a free on-line book designed to provide a concise and easy to
+                        follow guide to learning Ruby.">
+                        Ruby Essentials</a>
+                    <a href="https://rubystyle.guide"
+                       summary="This Ruby style guide recommends best practices so that real-world Ruby programmers
+                        can write code that can be maintained by other real-world Ruby programmers.">
+                        Ruby Style Guide
+                    </a>
+                </group>
+
+                <group>
+                    <title>Más</title>
+                    <a href="https://www.jenv.be" summary="jEnv is a command line tool to help you forget how to set
+                     the JAVA_HOME environment variable">jEnv</a>
+                    <a href="https://visualvm.github.io"
+                       summary="All-in-One Java Troubleshooting Tool">VisualVM</a>
+                    <a href="https://docs.oracle.com/javase/specs/jls/se21/html/index.html"
+                       summary="JLS 21">
+                        The Java® Language Specification Java SE 21 Edition
+                    </a>
+                </group>
+            </links>
         </misc>
 
     </section-starting-page>
