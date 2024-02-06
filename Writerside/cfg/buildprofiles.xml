@@ -12,6 +12,10 @@
     <build-profile instance="hi">
         <variables>
             <noindex-content>true</noindex-content>
+            <algolia-id>B4IMCNPNHK</algolia-id>
+            <algolia-index>Tutoriales</algolia-index>
+            <algolia-api-key>781f7440793b2452e22d8d4d2b303e92</algolia-api-key>
+            <web-root>https://poo-itba.github.io/tutoriales/</web-root>
         </variables>
     </build-profile>
     <footer>
