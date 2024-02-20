@@ -23,12 +23,14 @@ También puede descargar la versión
 que no requiere licencia.
 </tip>
 
+<!--
 <note>
 IntelliJ IDEA Community Edition está
 <b>disponible en
 <a href="https://itbacloud.cloud.com/Citrix/StoreWeb/#/home">ITBA Workspace</a>
 </b>
 </note>
+-->
 
 ## Instalación de IntelliJ IDEA usando ToolBox App
 
