@@ -6,7 +6,7 @@ para Java (JDK) desde el mismo IDE.
 <warning>
 Si desea utilizar Java 
 <b>con otro IDE</b> o desde la línea de comando puede descargar manualmente el JDK desde 
-<a href="https://jdk.java.net/21/">OpenJDK JDK 21.0.2 General-Availability Release</a>
+<a href="https://jdk.java.net/22/">OpenJDK JDK 22.0.2 General-Availability Release</a>
 </warning>
 
 ## Registro y Licencia
