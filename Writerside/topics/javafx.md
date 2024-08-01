@@ -1,22 +1,18 @@
+<primary-label ref="label"/>
+
 # JavaFX
 
-<tip>
-    <p>
-        JavaFX es necesario para la implementación del TPE Final de la materia.
-    </p>
-</tip>
-
-## Descarga de JavaFX 21
+## Descarga de JavaFX
 
 Ir al sitio
-<a href="https://jdk.java.net/javafx21/">jdk.java.net</a>
+<a href="https://jdk.java.net/javafx22/">jdk.java.net</a>
 y descargar el **SDK** correspondiente al sistema operativo que está utilizando
 
 <img src="javafx-1.png" alt="Paso 1 JavaFX" width="600"/>
 
 <tip>
     <p>
-        Para utilizar JavaFX 21 es necesario contar con Java 17 o superior.
+        Para utilizar JavaFX es necesario contar con Java 17 o superior.
     </p>
 </tip>
 
