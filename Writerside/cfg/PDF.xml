@@ -1,0 +1,11 @@
+<pdf landscape="false">
+    <cover-page>
+        <title>Tutoriales</title>
+        <description>Bienvenido al sitio de tutoriales para la materia 72.33 Programación Orientada a Objetos.</description>
+        <copyright>72.33 Programación Orientada a Objetos © 2025</copyright>
+    </cover-page>
+    <header>Text in header</header>
+    <footer>Text in footer</footer>
+    <toc-title>Índice</toc-title>
+    <layout>Windows</layout>
+</pdf>
