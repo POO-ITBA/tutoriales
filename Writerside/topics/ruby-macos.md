@@ -25,7 +25,7 @@ Puede verificar la instalación de **HomeBrew** utilizando el siguiente comando
 
 donde debería obtener una salida como la siguiente
 
-<code-block lang="plain text">Homebrew 4.2.2</code-block>
+<code-block lang="plain text">Homebrew 4.4.21</code-block>
 
 ## Instalación de paquetes ruby-build y rbenv
 
@@ -51,26 +51,26 @@ Consulte las versiones de Ruby disponibles para su instalación
 Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
-3.0.6
-3.1.4
-3.2.2
-3.3.0
-jruby-9.4.5.0
-mruby-3.2.0
+3.1.6
+3.2.7
+3.3.7
+3.4.2
+jruby-9.4.12.0
+mruby-3.3.0
 picoruby-3.0.0
-truffleruby-23.1.1
-truffleruby+graalvm-23.1.1
+truffleruby-24.1.2
+truffleruby+graalvm-24.1.2
 </code-block>
 
 Identifique en la salida una versión 
-<shortcut>3.3.X</shortcut> o superior, en este ejemplo es la <code>3.3.0</code>
+<shortcut>3.4.X</shortcut> o superior, en este ejemplo es la <code>3.4.2</code>
 
 ## Instalación de Ruby
 
 Instale la versión de Ruby identificada usando
-<code>rbenv</code>, en este ejemplo es la <code>3.3.0</code>
+<code>rbenv</code>, en este ejemplo es la <code>3.4.2</code>
 
-<code-block lang="console">rbenv install 3.3.0</code-block>
+<code-block lang="console">rbenv install 3.4.2</code-block>
 
 ### Configuración de rbenv
 
@@ -101,7 +101,7 @@ Desde ahora
 
 Puede setear la versión deseada
 
-<code-block lang="console">rbenv shell 3.3.0</code-block>
+<code-block lang="console">rbenv shell 3.4.2</code-block>
 
 Finalmente verifique que al invocar a 
 <code>ruby</code> desde la terminal ejecuta la versión deseada
@@ -111,11 +111,11 @@ Finalmente verifique que al invocar a
 donde debe obtener una salida similar a la siguiente
 
 <code-block lang="plain text">
-ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [arm64-darwin23]
+ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [arm64-darwin24]
 </code-block>
 
 <note>
     <p>
-        Listo! Ya cuenta con Ruby 3.3 instalado correctamente.
+        Listo! Ya cuenta con Ruby 3.4 instalado correctamente.
     </p>
 </note>
