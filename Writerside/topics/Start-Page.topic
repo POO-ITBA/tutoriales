@@ -37,8 +37,8 @@
         <misc>
             <cards>
                 <title>Consultas</title>
-                <a href="https://github.com/POO-ITBA/2024_02/issues" type="support"
-                   summary="https://github.com/POO-ITBA/2024_02/issues">Issues en GitHub</a>
+                <a href="https://github.com/POO-ITBA/2025_01/issues" type="support"
+                   summary="https://github.com/POO-ITBA/2025_01/issues">Issues en GitHub</a>
             </cards>
 
             <links>
@@ -47,9 +47,9 @@
                     <a href="https://docs.oracle.com/en/java/javase/21/docs/api/index.html"
                        summary="Documentación de Java">
                         Java Development Kit Version 21 API Specification</a>
-                    <a href="https://docs.ruby-lang.org/en/3.3/"
+                    <a href="https://docs.ruby-lang.org/en/3.4/"
                        summary="Documentación de Ruby">
-                        Ruby Official Documentation</a>
+                        Ruby Official Documentation 3.4</a>
                     <a href="https://www.rubydoc.info/gems/sorted_set/SortedSet"
                         summary="Documentation for sorted_set (1.0.3)">
                         rubydoc.info/gems/sorted_set
