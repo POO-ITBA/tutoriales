@@ -8,7 +8,7 @@
         <header-logo>logo.png</header-logo>
         <product-web-url>https://github.com/POO-ITBA</product-web-url>
         <download-title>Consultas</download-title>
-        <download-page>https://github.com/POO-ITBA/2025_01/issues</download-page>
+        <download-page>https://github.com/POO-ITBA/2025_02/issues</download-page>
         <showDownloadButton>true</showDownloadButton>
     </variables>
     <build-profile instance="hi">
@@ -22,6 +22,6 @@
     </build-profile>
     <footer>
         <copyright>72.33 Programación Orientada a Objetos 2025</copyright>
-        <link href="https://github.com/POO-ITBA/2025_01/issues">Consultas</link>
+        <link href="https://github.com/POO-ITBA/2025_02/issues">Consultas</link>
     </footer>
 </buildprofiles>
