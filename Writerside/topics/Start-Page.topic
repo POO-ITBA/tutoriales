@@ -24,8 +24,8 @@
                summary="Instalación en macOS, Linux y Windows">Instalación de Ruby</a>
             <a href="rubymine.md" type="start"
                summary="IDE para Ruby y configuración del intérprete">Instalación de RubyMine</a>
-            <a href="sortedset.md" type="library"
-               summary="Instalación con gem y uso">Gema SortedSet</a>
+<!--            <a href="sortedset.md" type="library"-->
+<!--               summary="Instalación con gem y uso">Gema SortedSet</a>-->
         </primary>
 
         <secondary>
@@ -37,28 +37,28 @@
         <misc>
             <cards>
                 <title>Consultas</title>
-                <a href="https://github.com/POO-ITBA/2025_02/issues" type="support"
-                   summary="https://github.com/POO-ITBA/2025_02/issues">Issues en GitHub</a>
+                <a href="https://github.com/POO-ITBA/2026_01/issues" type="support"
+                   summary="https://github.com/POO-ITBA/2026_01/issues">Issues en GitHub</a>
             </cards>
 
             <links>
                 <group>
                     <title>Documentación que podrán consultar durante los parciales y recuperatorios</title>
-                    <a href="https://docs.oracle.com/en/java/javase/21/docs/api/index.html"
+                    <a href="https://docs.oracle.com/en/java/javase/25/docs/api/index.html"
                        summary="Documentación de Java">
-                        Java Development Kit Version 21 API Specification</a>
-                    <a href="https://docs.ruby-lang.org/en/3.4/"
+                        Java Development Kit Version 25 API Specification</a>
+                    <a href="https://docs.ruby-lang.org/en/4.0/"
                        summary="Documentación de Ruby">
-                        Ruby Official Documentation 3.4</a>
-                    <a href="https://www.rubydoc.info/gems/sorted_set/SortedSet"
-                        summary="Documentation for sorted_set (1.0.3)">
-                        rubydoc.info/gems/sorted_set
-                    </a>
+                        Ruby Official Documentation 4.0</a>
+<!--                    <a href="https://www.rubydoc.info/gems/sorted_set/SortedSet"-->
+<!--                        summary="Documentation for sorted_set (1.0.3)">-->
+<!--                        rubydoc.info/gems/sorted_set-->
+<!--                    </a>-->
                 </group>
                 <group>
                     <title>Ejecución del código desde el navegador</title>
-                    <a href="https://www.jdoodle.com/online-java-compiler"
-                       summary="Online Java Compiler IDE">JDoodle</a>
+                    <a href="https://dev.java/playground/"
+                       summary="The Java Playground">The Java Playground</a>
                     <a href="https://try.ruby-lang.org/playground/"
                        summary="In the Playground you can try any Ruby code you like.">Try Ruby</a>
                 </group>
@@ -67,6 +67,9 @@
                     <title>Bibliografía Complementaria para Java</title>
                     <a href="https://dev.java/learn/"
                        summary="The Destination for Java Developers">
+                        Dev Java</a>
+                    <a href="https://learn.java/"
+                       summary="The Destination for Beginners, Students, and Teachers of Java">
                         Learn Java</a>
                     <a href="https://docs.oracle.com/javase/tutorial/reallybigindex.html"
                        summary="The Really Big Index">
@@ -96,9 +99,9 @@
                      the JAVA_HOME environment variable">jEnv</a>
                     <a href="https://visualvm.github.io"
                        summary="All-in-One Java Troubleshooting Tool">VisualVM</a>
-                    <a href="https://docs.oracle.com/javase/specs/jls/se21/html/index.html"
-                       summary="JLS 21">
-                        The Java® Language Specification Java SE 21 Edition
+                    <a href="https://docs.oracle.com/javase/specs/jls/se25/html/index.html"
+                       summary="JLS 25">
+                        The Java® Language Specification Java SE 25 Edition
                     </a>
                 </group>
             </links>

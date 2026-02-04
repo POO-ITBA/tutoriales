@@ -6,7 +6,7 @@ para Java (JDK) desde el mismo IDE.
 <warning>
 Si desea utilizar Java 
 <b>con otro IDE</b> o desde la línea de comando puede descargar manualmente el JDK desde 
-<a href="https://jdk.java.net/22/">OpenJDK JDK 22.0.2 General-Availability Release</a>
+<a href="https://jdk.java.net/25/">OpenJDK JDK 25 General-Availability Release</a>
 </warning>
 
 ## Registro y Licencia
@@ -57,9 +57,7 @@ En **Language** elegir **Java**. En **Build system** asegurarse de elegir **Inte
 
 Ahora es momento de descargar un JDK. En **JDK** abrir el menú contextual y elegir la opción
 <shortcut>Download JDK</shortcut>.
-Aparecerá una ventana emergente. Elegir **Oracle OpenJDK 21** o superior. 
-
-Para este ejemplo se elige **Oracle OpenJDK 21.0.2**.
+Aparecerá una ventana emergente. Elegir **Oracle OpenJDK 25** o superior. 
 
 <img src="intellij-3.png" alt="IntelliJ-3" width="600"/>
 
