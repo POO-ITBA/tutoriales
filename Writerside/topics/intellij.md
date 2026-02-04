@@ -1,13 +1,24 @@
+# Instalación de Java
+
+## Uso de Java con Docker + Dev Container
+
+En el **Dev Container** del repositorio de las guías de ejercicios
+`laboratorio_java` ya cuenta con Java 25 instalado.
+
+También cuenta con la extensión de Visual Studio Code correspondiente.
+
+<tip>
+Utilizar el enlace ubicado en <b>Campus ITBA</b> para conseguir acceso al repositorio.
+</tip>
+
+Para instalar Docker Desktop ir al sitio oficial de
+<a href="https://www.docker.com/products/docker-desktop/">Docker Desktop</a>
+y presionar **Download Docker Desktop**
+
 # Instalación de IntelliJ IDEA
 
 En este tutorial se cubre la instalación del IDE IntelliJ IDEA que permite descargar el kit de desarrollo
-para Java (JDK) desde el mismo IDE.
-
-<warning>
-Si desea utilizar Java 
-<b>con otro IDE</b> o desde la línea de comando puede descargar manualmente el JDK desde 
-<a href="https://jdk.java.net/25/">OpenJDK JDK 25 General-Availability Release</a>
-</warning>
+para Java (JDK) desde el mismo IDE **o utilizar el Dev Container del repositorio de las guías de ejercicios**.
 
 ## Registro y Licencia
 
@@ -22,15 +33,6 @@ También puede descargar la versión
 <b>IntelliJ IDEA Community Edition</b>
 que no requiere licencia.
 </tip>
-
-<!--
-<note>
-IntelliJ IDEA Community Edition está
-<b>disponible en
-<a href="https://itbacloud.cloud.com/Citrix/StoreWeb/#/home">ITBA Workspace</a>
-</b>
-</note>
--->
 
 ## Instalación de IntelliJ IDEA usando ToolBox App
 
@@ -86,3 +88,9 @@ y presionar
 <a href="https://www.jetbrains.com/help/idea/run-for-the-first-time.html">
 Run IntelliJ IDEA for the first time</a>.
 </tip>
+
+<warning>
+Si desea utilizar Java 
+<b>con otro IDE</b> o desde la línea de comando puede descargar manualmente el JDK desde 
+<a href="https://jdk.java.net/25/">OpenJDK JDK 25 General-Availability Release</a>
+</warning>

@@ -13,7 +13,7 @@
 
         <spotlight>
             <a href="intellij.md" type="idea"
-               summary="IDE para Java y descarga de JDK">Instalación de IntelliJ IDEA</a>
+               summary="Mediante Dev Container (Docker) o instalación local">Instalación de Java</a>
             <a href="plantuml.md" type="branch"
                summary="Herramienta para los diagramas de clase">Diagramas PlantUML</a>
         </spotlight>
@@ -21,7 +21,7 @@
         <primary>
             <title>Tutoriales de Ruby</title>
             <a href="ruby-index.md" type="development"
-               summary="Instalación en macOS, Linux y Windows">Instalación de Ruby</a>
+               summary="Mediante Dev Container (Docker) o instalación local">Instalación de Ruby</a>
             <a href="rubymine.md" type="start"
                summary="IDE para Ruby y configuración del intérprete">Instalación de RubyMine</a>
 <!--            <a href="sortedset.md" type="library"-->
