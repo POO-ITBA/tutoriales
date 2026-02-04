@@ -5,24 +5,24 @@
 ## Descarga de JavaFX
 
 Ir al sitio
-<a href="https://jdk.java.net/javafx22/">jdk.java.net</a>
+<a href="https://jdk.java.net/javafx25/">jdk.java.net</a>
 y descargar el **SDK** correspondiente al sistema operativo que está utilizando
 
 <img src="javafx-1.png" alt="Paso 1 JavaFX" width="600"/>
 
 <tip>
     <p>
-        Para utilizar JavaFX es necesario contar con Java 17 o superior.
+        Para utilizar JavaFX es necesario contar con Java 25 o superior.
     </p>
 </tip>
 
 En este caso se descargará el SDK macOS/AArch64 (_que es el correspondiente para las Mac con procesadores M1 y similares_)
 y el archivo se llama 
-<code>openjfx-21.0.1_macos-aarch64_bin-sdk.tar.gz</code>
+<code>openjfx-25.0.1_macos-aarch64_bin-sdk.tar.gz</code>
 
 Descomprimirlo en un directorio. Para este ejemplo la ruta será
 
-<code-block lang="console">/Users/fmeola/javafx-sdk-21.0.1/</code-block>
+<code-block lang="console">/Users/fmeola/poo/javafx-sdk-25.0.1/</code-block>
 
 ## Configuración de la librería global de JavaFX en IntelliJ IDEA
 
@@ -45,11 +45,10 @@ Luego ir a **Project Structure** desde el engranaje de la esquina superior derec
 En **Platform Settings -> Global Libraries** presionar el botón **+** para la opción 
 **New Global Library -> Java**
 
-Se abrirá una ventana para elegir archivos. Seleccionar todos los archivos de extensión 
-<code>.jar</code> que están presentes en la carpeta 
+Se abrirá una ventana para elegir archivos. Seleccionar la carpeta
 <code>lib/</code>. 
 Siguiendo con el ejemplo sería el directorio
-<code>/Users/fmeola/javafx-sdk-21.0.1/lib</code>.
+<code>/Users/fmeola/javafx-sdk-25.0.1/lib</code>.
 
 <img src="javafx-4.png" alt="Paso 4 JavaFX" width="600"/>
 
@@ -67,11 +66,11 @@ Para utilizar la librería global en este o en cualquier otro proyecto de Intell
 luego **Project Settings -> Modules** y presionar la tab **Dependencies**
 
 Luego con el botón **+** elegir la opción **Library...** y luego la librería global desde **Global Libraries**. 
-En este caso <code>javafx-swt</code>. Presionar **Add Selected** para agregarla.
+En este caso <code>lib</code>. Presionar **Add Selected** para agregarla.
 
 <img src="javafx-6.png" alt="Paso 6 JavaFX" width="300"/>
 
-Debería ver la librería <code>javafx-swt</code> agregada al módulo.
+Debería ver la librería <code>lib</code> agregada al módulo.
 
 <img src="javafx-7.png" alt="Paso 7 JavaFX" width="600"/>
 
@@ -106,7 +105,7 @@ Por último agregar los siguientes flags que indican la ruta de la carpeta
 <code>lib/</code> del directorio de JavaFX y mencionan las librerías necesarias.
 
 <code-block lang="console">
---module-path /Users/fmeola/javafx-sdk-21.0.1/lib
+--module-path /Users/fmeola/poo/javafx-sdk-25.0.1/lib
 --add-modules=javafx.swt,javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web
 </code-block>
 

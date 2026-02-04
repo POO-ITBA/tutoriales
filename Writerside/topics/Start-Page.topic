@@ -50,10 +50,6 @@
                     <a href="https://docs.ruby-lang.org/en/4.0/"
                        summary="Documentación de Ruby">
                         Ruby Official Documentation 4.0</a>
-<!--                    <a href="https://www.rubydoc.info/gems/sorted_set/SortedSet"-->
-<!--                        summary="Documentation for sorted_set (1.0.3)">-->
-<!--                        rubydoc.info/gems/sorted_set-->
-<!--                    </a>-->
                 </group>
                 <group>
                     <title>Ejecución del código desde el navegador</title>

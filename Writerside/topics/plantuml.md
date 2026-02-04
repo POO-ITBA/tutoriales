@@ -6,9 +6,20 @@ Para realizar los **diagramas de clase** recomendamos la herramienta
 ## Uso de PlantUML desde el navegador
 
 Puede generar los diagramas PlantUML sin necesidad de instalar ninguna herramienta accediendo al 
-<a href="https://www.plantuml.com/plantuml/uml/">Online Server</a>. 
+<a href="https://editor.plantuml.com/uml/">Online Server</a>. 
 
 <tip>El sitio web contiene anuncios</tip>
+
+## Uso de PlantUML con Docker + Dev Container
+
+En cualquiera de los **Dev Container** de los repositorios de las guías de ejercicios
+como `laboratorio_java` o `laboratorio_ruby` ya cuenta con PlantUML instalado.
+
+También cuenta con la extensión de Visual Studio Code correspondiente.
+
+<tip>
+Utilizar el enlace ubicado en <b>Campus ITBA</b> para conseguir acceso al repositorio.
+</tip>
 
 ## Uso de PlantUML desde IntelliJ IDEA
 

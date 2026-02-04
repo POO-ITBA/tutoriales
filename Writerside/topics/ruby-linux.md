@@ -15,7 +15,7 @@ Para instalar la versión estable más reciente de Ruby ejecute el siguiente com
 Debería ver una salida similar a la siguiente
 
 <code-block lang="plain text">
-ruby 3.4.2 from Ruby core team (rubylang) installed
+ruby 4.0.0 from Ruby core team (rubylang) installed
 </code-block>
 
 Finalmente verifique que al invocar a
@@ -26,11 +26,11 @@ Finalmente verifique que al invocar a
 donde debe obtener una salida similar a la siguiente
 
 <code-block lang="plain text">
-ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [aarch64-linux]
+ruby 4.0.0 (2025-12-25 revision 553f1675f3) +PRISM [aarch64-linux]
 </code-block>
 
 <note>
     <p>
-        Listo! Ya cuenta con Ruby 3.4 instalado correctamente.
+        Listo! Ya cuenta con Ruby 4 instalado correctamente.
     </p>
 </note>

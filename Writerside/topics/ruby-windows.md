@@ -4,7 +4,7 @@
 
 Ir al sitio de 
 <a href="https://rubyinstaller.org/downloads/">RubyInstaller</a>
-y descargar una versión <shortcut>3.4.X</shortcut> o superior del **Ruby+Devkit**. Elija la versión correspondiente a su
+y descargar una versión <shortcut>4.X</shortcut> o superior del **Ruby+Devkit**. Elija la versión correspondiente a su
 arquitectura (x86 o x64).
 
 <warning>
@@ -16,9 +16,8 @@ arquitectura (x86 o x64).
 
 Al momento de crear este tutorial los instaladores son:
 
-- **Ruby+Devkit 3.4.2-1 (arm)**
-- **Ruby+Devkit 3.4.2-1 (x64)**
-- **Ruby+Devkit 3.4.2-1 (x86)**
+- **Ruby+Devkit 4.0.1-1 (arm)**
+- **Ruby+Devkit 4.0.1-1 (x64)**
 
 <tip>
     <p>
@@ -60,6 +59,6 @@ para salir de la terminal y finalizar la instalación.
 
 <note>
     <p>
-        Listo! Ya cuenta con Ruby 3.4 instalado correctamente.
+        Listo! Ya cuenta con Ruby 4 instalado correctamente.
     </p>
 </note>
