@@ -102,11 +102,13 @@ Elegir **Modify Options** y en el menú elegir **Add VM Options**
 <img src="javafx-9.png" alt="Paso 9 JavaFX" width="300"/>
 
 Por último agregar los siguientes flags que indican la ruta de la carpeta 
-<code>lib/</code> del directorio de JavaFX y mencionan las librerías necesarias.
+<code>lib/</code> del directorio de JavaFX, mencionan las librerías necesarias
+y hacen los ajustes necesarios para poder ejecutar librerías nativas del sistema operativo.
 
 <code-block lang="console">
 --module-path /Users/fmeola/poo/javafx-sdk-25.0.1/lib
 --add-modules=javafx.swt,javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web
+--enable-native-access=javafx.graphics,javafx.media,javafx.web
 </code-block>
 
 Finalmente presionar **OK** y ejecutar el código fuente con <img src="app.actions.execute.svg" alt="Botón Play"/>.
