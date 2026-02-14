@@ -2,8 +2,9 @@
 <!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<variables>
-        <primary-color>halloween</primary-color>
+    <variables>
+        <primary-color>#f6921d</primary-color>
+        <custom-css>custom.css</custom-css>
         <custom-favicons>favicon.svg</custom-favicons>
         <header-logo>logo.png</header-logo>
         <product-web-url>https://github.com/POO-ITBA</product-web-url>
