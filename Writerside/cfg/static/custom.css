@@ -1,9 +1,116 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Quattrocento+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Lora:wght@500;600;700&family=Quattrocento+Sans:wght@400;700&display=swap");
 
-.article__p {
-  font-family: "Quattrocento Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+/* Global tokens for Writerside menus, home and topic pages */
+:root {
+  --poo-color-orange: #f6921d;
+  --poo-color-yellow: #ffcd00;
+  --poo-color-orange-deep: #d97c00;
+  --poo-home-gradient: linear-gradient(
+    135deg,
+    var(--poo-color-yellow) 0%,
+    #ffd83e 35%,
+    var(--poo-color-orange) 100%
+  );
+
+  --rs-font-family-ui: "Quattrocento Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --rs-font-family-jb-sans: "Quattrocento Sans";
+  --rs-font-family-headers: "Lora", Georgia, serif;
+  --rs-font-family-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  --wh-color-accent-substrate-bg: var(--poo-color-orange-deep);
+  --wh-color-accent-substrate-main-text: #ffffff;
+  --wh-color-accent-substrate-secondary-text: #fff3d1;
+  --wh-color-accent-substrate-pale-text: #ffe7a6;
+  --app-header: var(--poo-color-orange-deep);
+  --app-footer: var(--poo-color-orange-deep);
+  --app-footer-vivid-bg: var(--poo-color-orange);
 }
 
-.title__content {
-  font-family: "Lora", Georgia, serif;
+body,
+.article__p {
+  font-family: var(--rs-font-family-ui);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title__content,
+.section-starting-page-content__title,
+.section-starting-page-content__section-title {
+  font-family: var(--rs-font-family-headers);
+}
+
+.home-page__content {
+  background: radial-gradient(circle at top right, #ffe48f 0%, transparent 42%),
+    var(--poo-home-gradient);
+  background-attachment: fixed;
+}
+
+.home-page__header,
+.home-page__footer {
+  background-color: var(--poo-color-orange-deep);
+  box-shadow: inset 0 -2px 0 rgba(255, 205, 0, 0.65);
+}
+
+.section-starting-page-content__section--highlighted {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.section-starting-page-content__section--highlighted .section-starting-page-content__card,
+.section-starting-page-content__section--highlighted .section-starting-page-content__card:hover,
+.home-page__product-column {
+  background-color: rgba(255, 252, 240, 0.96);
+  border: 1px solid rgba(246, 146, 29, 0.35);
+}
+
+.topic a {
+  color: #9b5300;
+}
+
+.topic a:hover,
+.home-page a:hover {
+  color: #6d3a00;
+}
+
+.home-page a {
+  color: #8a4800;
+}
+
+/* Dark mode contrast fixes for home cards and highlighted sections */
+html.theme-dark .home-page__content {
+  background: radial-gradient(circle at top right, rgba(255, 205, 0, 0.2) 0%, transparent 42%),
+    linear-gradient(140deg, #2b1800 0%, #5e3500 52%, #8a4e00 100%);
+}
+
+html.theme-dark .section-starting-page-content__section--highlighted {
+  background-color: rgba(24, 15, 8, 0.72);
+}
+
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card,
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card:hover,
+html.theme-dark .home-page__product-column {
+  background-color: #fff5dc;
+  border: 1px solid rgba(246, 146, 29, 0.55);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card .rs-h3,
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card .rs-text-2,
+html.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card a,
+html.theme-dark .home-page__product-column .rs-h3,
+html.theme-dark .home-page__product-column .rs-text-2,
+html.theme-dark .home-page__product-column a {
+  color: #2f1a00;
+}
+
+html.theme-dark .section-starting-page-content__section:not(.section-starting-page-content__section--highlighted) .section-starting-page-content__card .rs-h3,
+html.theme-dark .section-starting-page-content__section:not(.section-starting-page-content__section--highlighted) .section-starting-page-content__card a {
+  color: #f3f2ef;
+}
+
+html.theme-dark .section-starting-page-content__section:not(.section-starting-page-content__section--highlighted) .section-starting-page-content__card .rs-text-2 {
+  color: rgba(243, 242, 239, 0.85);
 }
